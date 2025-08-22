@@ -3,7 +3,7 @@ import streamlit as st
 st.title('뭐 만들지?')
 
 # 문제 입력
-question = st.image("https://lwdw.ebsi.co.kr/UpDown/item_xip/resource/paper/24517780/21104804_000_20241115132717.png", caption="2025학년도 11월 대학수학능력시험 수학 공통 11번")
+question = st.image("https://ai-plus.ebs.co.kr/ebs/xip/xipSolve/itempool2.ebs", caption="2025학년도 11월 대학수학능력시험 수학 공통 11번")
 answer = st.selectbox('답을 골라주세요:',[
   '① 120', '② 125', '③ 130', '④	135', '⑤ 140'
 ])
