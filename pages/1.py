@@ -35,6 +35,3 @@ if st.button('정답 확인하기'):
   if answer in answer_data:
     설명 = answer_data[answer]['설명']
     st.write(f"설명: {설명}")
-
-if st.button('다시 고르기'):
-   st.session_state.count = 0
