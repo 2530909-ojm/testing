@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title('답을 고르시오.')
+st.title('Choose the correct answer.')
 
 # 문제 입력
 question = st.image("https://i.ytimg.com/vi/kTaxafDe7lc/maxresdefault.jpg", caption="2025학년도 11월 대학수학능력시험 수학 공통 12번")
