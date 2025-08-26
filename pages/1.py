@@ -3,7 +3,7 @@ import streamlit as st
 st.title('답을 고르시오.')
 
 # 문제 입력
-question = st.image(""https://lwdw.ebsi.co.kr/UpDown/item_xip/resource/paper/24517780/21104804_000_20241115132717.png"", caption="2025학년도 11월 대학수학능력시험 수학 공통 12번")
+question = st.image("https://i.ytimg.com/vi/kTaxafDe7lc/maxresdefault.jpg", caption="2025학년도 11월 대학수학능력시험 수학 공통 12번")
 answer = st.selectbox('답:',[
   '① 120', '② 125', '③ 130', '④ 135', '⑤ 140'
 ])
